@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+:root {
+	--background: #f6f6f4;
+	--foreground: #000;
+	--sidebar-background: #000;
+	--primary: #b2afea;
+	--secondary: #f9b87a;
+	--sidebar-foreground: #fff;
+}
+
+@theme inline {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-primary: var(--primary);
+	--color-secondary: var(--secondary);
+	--color-sidebar-background: var(--sidebar-background);
+	--color-sidebar-foreground: var(--sidebar-foreground);
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+nav a {
+	transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+	color: var(--primary);
+}
+
+button {
+	cursor: pointer;
+}

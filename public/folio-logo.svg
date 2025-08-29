@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo">
+  <!-- Background -->
+  <!-- Mark -->
+  <g fill="#BDB2FF">
+    <!-- Left capsule -->
+    <rect x="14" y="14" width="16" height="36" rx="8"/>
+    <!-- Right capsule -->
+    <rect x="34" y="14" width="16" height="36" rx="8"/>
+  </g>
+</svg>
