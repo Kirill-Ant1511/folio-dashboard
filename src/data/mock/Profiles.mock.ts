@@ -32,21 +32,21 @@ export const profiles: Profile[] = [
 				name: 'Salary',
 				amount: 3654,
 				createdAt: new Date('2025-08-29'),
-				type: 'income'
+				type: 'Payload'
 			},
 			{
 				id: '65486931234',
 				name: 'Groceries',
 				amount: 1234,
 				createdAt: new Date('2025-05-27'),
-				type: 'expense'
+				type: 'Canceled'
 			},
 			{
 				id: '65486936745',
 				name: 'Car',
 				amount: 4321,
 				createdAt: new Date('2025-05-26'),
-				type: 'expense'
+				type: 'Completed'
 			}
 		]
 	},

@@ -1,3 +1,4 @@
+import cn from 'clsx'
 import { BsThreeDots } from 'react-icons/bs'
 import { IoIosSend } from 'react-icons/io'
 import { profiles } from '../../data/mock/Profiles.mock'
@@ -27,7 +28,18 @@ export function Transaction() {
 							})}
 						</p>
 						<p>#{item.id}</p>
-						<p>{item.type}</p>
+						<p
+							className={cn(
+								'p-1 w-30 flex items-center justify-center rounded-full',
+								item.type === 'Completed'
+									? 'bg-green-300/50 text-green-500'
+									: item.type === 'Canceled'
+									? 'bg-red-300/50 text-red-500'
+									: 'bg-secondary/20 text-secondary'
+							)}
+						>
+							{item.type}
+						</p>
 						<p>${item.amount}</p>
 						<BsThreeDots
 							size={28}
