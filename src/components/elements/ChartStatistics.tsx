@@ -8,7 +8,7 @@ import {
 	YAxis
 } from 'recharts'
 
-import { dataEarnings } from '../../data/mock/ChartData.mock'
+import { dataEarnings } from '../../data/mock/Chart.mock'
 import { FilterSelect } from './FilterSelect'
 
 export function ChartStatistics() {

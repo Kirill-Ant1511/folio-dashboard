@@ -13,7 +13,7 @@ export function FilterSelect({ filter, setFilter, value }: Props) {
 		<div className='relative flex flex-col items-center w-50'>
 			<button
 				onClick={() => setIsOpenSelect(!isOpenSelect)}
-				className='p-3 rounded-xl bg-white hover:bg-foreground/5 transition-all duration-200 w-full'
+				className='p-2 rounded-xl bg-transparent border-1 border-foreground/10 hover:bg-foreground/5 transition-all duration-200 w-full'
 			>
 				{filter}
 			</button>

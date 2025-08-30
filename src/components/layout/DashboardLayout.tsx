@@ -5,7 +5,7 @@ export function DashboardLayout() {
 	return (
 		<div className='flex min-w-screen'>
 			<DashboardSidebar />
-			<main className='w-full'>
+			<main className='w-full overflow-y-auto max-h-screen'>
 				<Outlet />
 			</main>
 		</div>

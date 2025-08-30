@@ -20,6 +20,8 @@
 
 body {
 	font-family: 'Inter', sans-serif;
+	max-height: 100vh;
+	overflow-x: hidden;
 }
 
 nav a {
