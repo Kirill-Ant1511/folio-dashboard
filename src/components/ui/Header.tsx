@@ -8,7 +8,7 @@ interface Props {
 
 export function Header({ title }: Props) {
 	return (
-		<div className='flex items-center justify-between w-full mb-10'>
+		<div className='flex items-center justify-between w-full mb-15'>
 			<h1 className='text-3xl font-bold text-foreground'>{title}</h1>
 			<div className='flex items-center gap-3'>
 				<SearchField placeholder='Search' />

@@ -5,7 +5,7 @@ export function Transfer() {
 	return (
 		<div className='w-[30%]'>
 			<h1 className='text-2xl font-bold mb-5'>Transfers</h1>
-			<div className='flex flex-col gap-4'>
+			<div className='flex flex-col gap-3'>
 				{profile.transfers.map(transfer => {
 					const whoSend = profiles.find(
 						profile => profile.id === transfer.whoSendsId

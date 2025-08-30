@@ -7,11 +7,11 @@ export function Transaction() {
 	return (
 		<div className='w-full'>
 			<h1 className='text-2xl font-semibold mb-5'>Transaction</h1>
-			<div className='flex flex-col items-center gap-4 w-full'>
+			<div className='flex flex-col items-center gap-2 w-full'>
 				{profile.transactions.map(item => (
 					<div
 						key={item.id}
-						className='w-full grid grid-cols-6 items-center hover:bg-white rounded-xl p-3 transition-all duration-200'
+						className='w-full grid grid-cols-[1fr_1fr_1fr_1fr_1fr_0.25fr] items-center hover:bg-white rounded-xl p-3 transition-all duration-200'
 					>
 						<div className='flex items-center gap-2'>
 							<div className='bg-primary text-white p-2 rounded-xl flex items-center justify-center'>
@@ -31,7 +31,7 @@ export function Transaction() {
 						<p>${item.amount}</p>
 						<BsThreeDots
 							size={28}
-							className='cursor-pointer hover:text-primary transition-all duration-200'
+							className='cursor-pointer hover:text-primary transition-all duration-200 w-full'
 						/>
 					</div>
 				))}
