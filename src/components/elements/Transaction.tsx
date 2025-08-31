@@ -1,7 +1,7 @@
 import cn from 'clsx'
 import { BsThreeDots } from 'react-icons/bs'
 import { IoIosSend } from 'react-icons/io'
-import { profiles } from '../../data/mock/Profiles.mock'
+import { profiles } from '@/data/mock/Profiles.mock'
 
 export function Transaction() {
 	const profile = profiles[0]

@@ -1,6 +1,6 @@
+import { SearchField } from '@/components/elements/SearchField'
 import { GoBell } from 'react-icons/go'
 import { LuCalendar1 } from 'react-icons/lu'
-import { SearchField } from '../elements/SearchField'
 
 interface Props {
 	title: string

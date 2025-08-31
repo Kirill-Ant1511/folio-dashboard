@@ -9,7 +9,7 @@ import {
 	YAxis
 } from 'recharts'
 
-import { dataEarnings } from '../../data/mock/Chart.mock'
+import { dataEarnings } from '@/data/mock/Chart.mock'
 import { FilterSelect } from './FilterSelect'
 import { CustomTooltip } from './Tooltips/CustomTooltip'
 import { EarningsTooltip } from './Tooltips/EarningsTooltip'

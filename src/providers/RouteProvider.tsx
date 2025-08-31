@@ -1,8 +1,8 @@
+import { DashboardLayout } from '@/components/layout/DashboardLayout'
+import { Pages } from '@/configs/routing.config'
+import { Dashboard } from '@/pages/Dashboard/Main/Dashboard'
+import { Home } from '@/pages/Home/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { DashboardLayout } from '../components/layout/DashboardLayout'
-import { Pages } from '../configs/routing.config'
-import { Dashboard } from '../pages/Dashboard/Dashboard'
-import { Home } from '../pages/Home/Home'
 
 export function RouteProvider() {
 	return (

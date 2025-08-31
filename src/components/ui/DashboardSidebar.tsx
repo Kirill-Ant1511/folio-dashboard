@@ -1,7 +1,7 @@
+import { MENU } from '@/constants/data/menu'
+import { profiles } from '@/data/mock/Profiles.mock'
 import cn from 'clsx'
 import { Link, useLocation } from 'react-router-dom'
-import { MENU } from '../../constants/data/menu'
-import { profiles } from '../../data/mock/Profiles.mock'
 
 export function DashboardSidebar() {
 	const { pathname } = useLocation()

@@ -1,4 +1,4 @@
-import type { ChartStatistic } from '../../types/chartStatistic.type'
+import type { ChartStatistic } from '@/types/chartStatistic.type'
 
 export const dataEarnings: ChartStatistic[] = [
 	{

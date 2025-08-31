@@ -1,4 +1,4 @@
-import { profiles } from '../../data/mock/Profiles.mock'
+import { profiles } from '@/data/mock/Profiles.mock'
 
 export function Transfer() {
 	const profile = profiles[0]

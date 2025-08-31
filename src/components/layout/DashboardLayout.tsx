@@ -1,6 +1,6 @@
+import { DashboardSidebar } from '@/components/ui/DashboardSidebar'
+import { Header } from '@/components/ui/Header'
 import { Outlet } from 'react-router-dom'
-import { DashboardSidebar } from '../ui/DashboardSidebar'
-import { Header } from '../ui/Header'
 
 export function DashboardLayout() {
 	return (

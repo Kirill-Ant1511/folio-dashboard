@@ -1,6 +1,6 @@
-import { ChartStatistics } from '../../components/elements/ChartStatistics'
-import { Transaction } from '../../components/elements/Transaction'
-import { Transfer } from '../../components/elements/Transfer'
+import { ChartStatistics } from '@/components/elements/ChartStatistics'
+import { Transaction } from '@/components/elements/Transaction'
+import { Transfer } from '@/components/elements/Transfer'
 import { InterimStatistics } from './InterimStatistics'
 
 export function Dashboard() {
