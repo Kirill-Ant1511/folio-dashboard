@@ -15,7 +15,7 @@ export const MENU: IMenu[] = [
 	{
 		title: 'Goals',
 		icon: FaTasks,
-		path: Pages.Dashboard
+		path: Pages.Goals
 	},
 	{
 		title: 'Statistics',
