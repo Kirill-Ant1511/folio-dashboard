@@ -10,11 +10,11 @@ export function ProgressBar({ progress, goal }: Props) {
 				style={{
 					width: `${progressPercent}%`,
 					height: '100%',
-					backgroundColor: 'var(--secondary)',
 					display: 'flex',
 					justifyContent: 'center',
 					alignItems: 'center'
 				}}
+				className={progressPercent === 100 ? 'bg-green-400' : 'bg-primary'}
 			>
 				{progress}$
 			</p>
